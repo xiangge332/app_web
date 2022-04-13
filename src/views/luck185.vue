@@ -1,5 +1,6 @@
 <template>
   <div id="luck185">
+      <Icon type="md-home" id="home" @click="goHome()" size='40'/>
       <div id="box">
           <p id="name">{{text}}</p>
           <Button id='start' type="primary" label="large" @click="start()">{{ message }}</Button>
@@ -41,6 +42,9 @@ export default {
         },
         setime(){
             this.id = setInterval(this.luck,100);
+        },
+        goHome(){
+            this.$router.push('/');
         }
     }
 }
