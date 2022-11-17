@@ -66,7 +66,7 @@
         width: 100%;
         height: 100%;
         z-index: -1;
-        background-image: url('../assets/img/backgroung.png');
+        background-image: url('../assets/img/good.png');
         background-size:cover;
         background-repeat: no-repeat;
         background-position: center;
